@@ -2,8 +2,8 @@
 
 set -e
 
-S3_CREDENTIALS=/s3.creds
-ENCRYPTION_KEY=/encryption.key
+S3_CREDENTIALS=/s3-backup/s3.creds
+ENCRYPTION_KEY=/s3-backup/encryption.key
 INPUT_DIR=/input
 OUTPUT_DIR=/output
 S3_ALIAS=dest
